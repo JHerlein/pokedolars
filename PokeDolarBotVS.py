@@ -19,15 +19,11 @@ pokemonJson = json.load(pokemons_file)
 
 pokemons_file.close()
 
-# access_token = "345520234-Fb0VwXc8ERDoHvC51EdFFwLGCAO38gTThA38nD1L"        Julian Herlein
-# access_token_secret = "9tX4KgnEp4EykCkeyp1H190wdUjeOQ2AUVSaQyqG3VZeG"
-# consumer_key = "hiwF2GMZ3gqIQywkDqEj00Jm7"
-# consumer_secret = "EmgKibJje0Kj3mIAxv7h7cvzmCA8XDyjI7wHWEgUcxTPlPWF4t"
 
-access_token = "1263554175071371266-ehGJPgYyoWtOIe8ulfjIlFmciHEPMS"
-access_token_secret = "UcYh6dpJhnGYa8JN6VyinZk1tkNF8CncUFN87US8HOP24"
-consumer_key = "xciTqiAYrubn54eBl8IQvlCII"
-consumer_secret = "rlUfeukX3t1MjgxA7rzRBmuPTx2b3L5iN4SxxYEbRWyaf6QVZk"
+access_token = ""
+access_token_secret = ""
+consumer_key = ""
+consumer_secret = ""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 
